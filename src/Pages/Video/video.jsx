@@ -2,6 +2,7 @@ import React from "react";
 import "./video.css";
 import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
 import ThumbDownAltOutlinedIcon from "@mui/icons-material/ThumbDownAltOutlined";
+import { Link } from "react-router-dom";
 const Video = () => {
   return (
     <div className="video">
@@ -24,13 +25,13 @@ const Video = () => {
           <div className="video_utubeTitle">{"Javascript For Beginners"}</div>
           <div className="youtube_videoProfileBlock">
             <div className="youtube_videoProfileBlock_left">
-              <div className="youtube_videoProfileBlock_left_img">
+              <Link to={'/user/12'} className="youtube_videoProfileBlock_left_img">
                 <img
                   className="youtube_videoProfileBlock_left_image"
                   src="https://play-lh.googleusercontent.com/LeX880ebGwSM8Ai_zukSE83vLsyUEUePcPVsMJr2p8H3TUYwNg-2J_dVMdaVhfv1cHg=w240-h480-rw"
                   alt=""
                 />
-              </div>
+              </Link>
               <div className="youtubevideo_subsView">
                 <div className="youtubePostProfileName">{"User1"}</div>
                 <div className="youtubePostProfilesubs">{"20000"}</div>

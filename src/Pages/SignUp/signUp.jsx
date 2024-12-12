@@ -2,17 +2,45 @@ import React ,{useState} from 'react'
 import './signup.css'
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import { Link } from 'react-router-dom';
+import axios from 'axios'
+
+
+
 const SignUp = () => {
-  const [signUpField,setSignUpField]=useState({"userName":"","password":"","channelName":"","about":"","profilePic":""});
   const [uploadedImageUrl,setUploadedImageUrl]= useState("https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg")
-  console.log(signUpField);
+
+  const [signUpField,setSignUpField]=useState({"userName":"","password":"","channelName":"","about":"","profilePic":uploadedImageUrl});
 
   const handleInputFields =(event,name)=>{
     setSignUpField({
       ...signUpField,[name]:event.target.value
   })
   }
+console.log(signUpField)
 
+
+  const uploadImage= async (e)=>{
+    console.log("uploading");
+    const files= e.target.files;
+    const data = new FormData();
+    data.append('file', files[0]);
+
+    
+    data.append('upload_preset', 'youtube-clone');
+    try{
+      // cloudName ='ds8t5hb7h'
+        const response = await axios.post("https://api.cloudinary.com/v1_1/ds8t5hb7h/image/upload", data)
+        const imageUrl = response.data.url;
+        setUploadedImageUrl(imageUrl);
+        setSignUpField({
+          ...signUpField,"profilePic":imageUrl
+      })
+    }catch(err){
+      console.log(err);
+    }
+    // youtube-clone
+
+  }
 
   return (
     <div className='signUp'>
@@ -32,7 +60,7 @@ const SignUp = () => {
 
 
           <div className="image_upload_signup">
-            <input type="file" />
+            <input type='file' onChange={(e)=>uploadImage(e)} />
             <div className="image_upload_signup_div">
               <img src={uploadedImageUrl} className='image_default_signUp' alt="" />
             </div>

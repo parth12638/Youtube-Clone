@@ -7,6 +7,7 @@ import MicIcon from '@mui/icons-material/Mic';
 import VideoCallRoundedIcon from '@mui/icons-material/VideoCallRounded';
 import NotificationsRoundedIcon from '@mui/icons-material/NotificationsRounded';
 import { Link , useNavigate } from 'react-router-dom';
+import Login from '../Login/login';
 const Navbar = ({setSideNavbarFunc, sideNavbar}) => {
     const [userPic,setUserPic]= useState("https://static-00.iconduck.com/assets.00/avatar-default-icon-2048x2048-h6w375ur.png");
 
@@ -24,6 +25,21 @@ const Navbar = ({setSideNavbarFunc, sideNavbar}) => {
     const sideNavbarFunc = ()=>{
         setSideNavbarFunc(!sideNavbar)
     }
+
+    const [login,setLogin] =useState(false);
+    const onclickOfPopUpOption =(button)=>{
+        setNavbarModel(false);
+        if (button==='login'){
+            setLogin(true);
+        }else{
+
+        }
+    }
+    const setLoginModel=()=>{
+        setLogin(false);
+    }
+
+
   return (
     <div className='navbar'>
 
@@ -54,7 +70,10 @@ const Navbar = ({setSideNavbarFunc, sideNavbar}) => {
 
 
         <div className="navbar-right">
+            <Link to={'/12/upload'}>
             <VideoCallRoundedIcon sx={{fontSize:"30px", cursor:"pointer", color: "white" }}/>
+            </Link>
+            
             <NotificationsRoundedIcon sx={{fontSize:"30px", cursor:"pointer", color: "white" }}/>
             <img onClick={handleClickModel} src={userPic} alt="logo" className="navbar-right-logo" />
 
@@ -62,11 +81,14 @@ const Navbar = ({setSideNavbarFunc, sideNavbar}) => {
             {   navbarModel &&
                 <div className="navbar-model">
                 <div className="navbar-model-option" onClick={handleprofile}>Profile</div>
-                <div className="navbar-model-option">Log-Out</div>
-                <div className="navbar-model-option">Log-In</div>
+                <div className="navbar-model-option" onClick={()=>onclickOfPopUpOption("logout")}>Log-Out</div>
+                <div className="navbar-model-option" onClick={()=>onclickOfPopUpOption("login")}>LogIn/SignUp</div>
             </div>
             }
         </div>
+        {
+            login && <Login setLoginModel={setLoginModel}/>
+        }
     </div>
   )
 }

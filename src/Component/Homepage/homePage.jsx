@@ -70,7 +70,7 @@ const HomePage = ({sideNavbar}) => {
 
             <div className="youtubeTitleBox">
               <div className="youtubeTitleBoxProfile">
-                <img src="https://play-lh.googleusercontent.com/LeX880ebGwSM8Ai_zukSE83vLsyUEUePcPVsMJr2p8H3TUYwNg-2J_dVMdaVhfv1cHg=w240-h480-rw" alt="" className="youtube_thumbnail_Profile" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwFTtXxzgyX3o7MUN-xJZiP3HDgVt5TcMNPSVnleX68jujL-m3drx-hnyvwQ7ocXDNSg&usqp=CAU" alt="" className="youtube_thumbnail_Profile" />
               </div>
               <div className="youtubeTitlebox_Title">
                 <div className="youtube_videoTitle">
@@ -96,7 +96,7 @@ const HomePage = ({sideNavbar}) => {
 
             <div className="youtubeTitleBox">
               <div className="youtubeTitleBoxProfile">
-                <img src="https://play-lh.googleusercontent.com/LeX880ebGwSM8Ai_zukSE83vLsyUEUePcPVsMJr2p8H3TUYwNg-2J_dVMdaVhfv1cHg=w240-h480-rw" alt="" className="youtube_thumbnail_Profile" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwFTtXxzgyX3o7MUN-xJZiP3HDgVt5TcMNPSVnleX68jujL-m3drx-hnyvwQ7ocXDNSg&usqp=CAU" alt="" className="youtube_thumbnail_Profile" />
               </div>
               <div className="youtubeTitlebox_Title">
                 <div className="youtube_videoTitle">
@@ -122,7 +122,7 @@ const HomePage = ({sideNavbar}) => {
 
             <div className="youtubeTitleBox">
               <div className="youtubeTitleBoxProfile">
-                <img src="https://play-lh.googleusercontent.com/LeX880ebGwSM8Ai_zukSE83vLsyUEUePcPVsMJr2p8H3TUYwNg-2J_dVMdaVhfv1cHg=w240-h480-rw" alt="" className="youtube_thumbnail_Profile" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwFTtXxzgyX3o7MUN-xJZiP3HDgVt5TcMNPSVnleX68jujL-m3drx-hnyvwQ7ocXDNSg&usqp=CAU" alt="" className="youtube_thumbnail_Profile" />
               </div>
               <div className="youtubeTitlebox_Title">
                 <div className="youtube_videoTitle">
@@ -148,7 +148,7 @@ const HomePage = ({sideNavbar}) => {
 
             <div className="youtubeTitleBox">
               <div className="youtubeTitleBoxProfile">
-                <img src="https://play-lh.googleusercontent.com/LeX880ebGwSM8Ai_zukSE83vLsyUEUePcPVsMJr2p8H3TUYwNg-2J_dVMdaVhfv1cHg=w240-h480-rw" alt="" className="youtube_thumbnail_Profile" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwFTtXxzgyX3o7MUN-xJZiP3HDgVt5TcMNPSVnleX68jujL-m3drx-hnyvwQ7ocXDNSg&usqp=CAU" alt="" className="youtube_thumbnail_Profile" />
               </div>
               <div className="youtubeTitlebox_Title">
                 <div className="youtube_videoTitle">
@@ -174,7 +174,7 @@ const HomePage = ({sideNavbar}) => {
 
             <div className="youtubeTitleBox">
               <div className="youtubeTitleBoxProfile">
-                <img src="https://play-lh.googleusercontent.com/LeX880ebGwSM8Ai_zukSE83vLsyUEUePcPVsMJr2p8H3TUYwNg-2J_dVMdaVhfv1cHg=w240-h480-rw" alt="" className="youtube_thumbnail_Profile" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwFTtXxzgyX3o7MUN-xJZiP3HDgVt5TcMNPSVnleX68jujL-m3drx-hnyvwQ7ocXDNSg&usqp=CAU" alt="" className="youtube_thumbnail_Profile" />
               </div>
               <div className="youtubeTitlebox_Title">
                 <div className="youtube_videoTitle">
@@ -200,7 +200,7 @@ const HomePage = ({sideNavbar}) => {
 
             <div className="youtubeTitleBox">
               <div className="youtubeTitleBoxProfile">
-                <img src="https://play-lh.googleusercontent.com/LeX880ebGwSM8Ai_zukSE83vLsyUEUePcPVsMJr2p8H3TUYwNg-2J_dVMdaVhfv1cHg=w240-h480-rw" alt="" className="youtube_thumbnail_Profile" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwFTtXxzgyX3o7MUN-xJZiP3HDgVt5TcMNPSVnleX68jujL-m3drx-hnyvwQ7ocXDNSg&usqp=CAU" alt="" className="youtube_thumbnail_Profile" />
               </div>
               <div className="youtubeTitlebox_Title">
                 <div className="youtube_videoTitle">
@@ -226,7 +226,7 @@ const HomePage = ({sideNavbar}) => {
 
             <div className="youtubeTitleBox">
               <div className="youtubeTitleBoxProfile">
-                <img src="https://play-lh.googleusercontent.com/LeX880ebGwSM8Ai_zukSE83vLsyUEUePcPVsMJr2p8H3TUYwNg-2J_dVMdaVhfv1cHg=w240-h480-rw" alt="" className="youtube_thumbnail_Profile" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwFTtXxzgyX3o7MUN-xJZiP3HDgVt5TcMNPSVnleX68jujL-m3drx-hnyvwQ7ocXDNSg&usqp=CAU" alt="" className="youtube_thumbnail_Profile" />
               </div>
               <div className="youtubeTitlebox_Title">
                 <div className="youtube_videoTitle">
@@ -242,6 +242,7 @@ const HomePage = ({sideNavbar}) => {
             </div>
 
           </Link>
+          
           
         </div>
 
